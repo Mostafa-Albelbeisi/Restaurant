@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Resturant</a>
+        <nav class="navigation">
+            <a href="./index.html">Home</a>
+    </nav>
+    </header>
+    <main>
+        <div class="dForm">
+        <form id = "form">
+            <label for = "FoodName">Food name</label>
+            <input type = "text" id = "inFoodName" name="FoodName" placeholder="Your food"><br>
+            <label for="Types food">Types food</label>
+            <select name = "Typesfood" class = "typeFood">
+                <option value = "fruitVegetables">Fruit and vegetables</option>
+                <option value = "starchyFood">Starchy food</option>
+                <option value = "dairy">Dairy</option>
+                <option value = "protein">Protein</option>
+                <option value = "fat">Fat</option>
+              </select><br>
+              <label for = "price">Price</label>
+            <input type = "text" id = "price" name="price" placeholder="Your price"><br><br>
+            <input type="Submit" id="subBtn">
+        </form>
+    </div>
+    <table id="tableF">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Price</th>
+          </tr>
+      </table>
+      <br>
+    </main>
+    <footer class="footer">
+        <p class="footer-title">Copyright &#169 <span> Mostafa 2022</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
