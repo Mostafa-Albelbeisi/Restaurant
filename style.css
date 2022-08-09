@@ -88,8 +88,12 @@ table th{
 .footer {
     background-color: #000016;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     padding: 2em;
     display: flex;
+    height: 60px;
     justify-content: space-between;
 }
 

@@ -54,4 +54,10 @@ function handleSubmit(event) {
   const newFood = new Restaurant(name, type, price);
 
   newFood.render();
+  saveData(allRes);
 } //end handleSubmit
+
+function saveData(data) {
+  let stringObj = JSON.stringify(data);
+  localStorage.setItem("foods", stringObj);
+}//end function save data
